@@ -48,10 +48,30 @@ img{
     aspect-ratio: 1;
 }
 /* searchbar */
+.search-bar-form{
+    position: relative;
+}
 .search-bar-input{
     width: 100%;
+    padding-left: 40px;
 }
-
+.search-bar-button{
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: black;
+    outline: none;
+    
+}
+.search-bar-button i {
+    color: black;
+}
+/* header di lato */
+.menu-item__icon{
+    width: 28px;
+    aspect-ratio: 1;
+    display: inline-block;
+}
 
 /* media query  */
  /* Small devices (landscape phones, 576px and up) */
