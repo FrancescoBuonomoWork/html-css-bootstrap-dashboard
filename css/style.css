@@ -1,0 +1,28 @@
+:root{
+    --dark-blue: #051E34;
+    --blue: #1B72E8;
+}
+a{
+    color: currentColor;
+    text-decoration: none;
+}
+ul,
+ol,
+menu{
+    list-style:none; 
+    padding:0;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+/* app  */
+#app{
+    height: 100vh;
+}
+
+/* debug  */
+.debug #app {
+    border: 2px solid orange;
+    padding: 20px;
+}
