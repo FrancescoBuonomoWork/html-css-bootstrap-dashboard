@@ -13,7 +13,34 @@
     <div id="app" class= "overflow-hidden d-flex flex-column">
         <!-- container della barra sopra -->
         
-            <aside class="aside-container">
+            <aside class="aside-container d-flex align-items-center gap-5">
+                <div class="logo-wrapper ">
+                    
+                        <img class="logo-mobile d-md-none" src="./img/mobile-logo.png">
+                        <img class="logo-desktop d-none d-md-block" src="./img/logo.svg">
+                    
+                </div>
+                <div class="search-bar flex-grow-1">
+                    
+                        <!-- <button class="border-0"><i class="fa-solid fa-magnifying-glass"></i></button> -->
+                        <input class="search-bar-input border-0 bg-light-gray rounded" type="search" id="site-search" name="q" />
+
+                   
+                </div>
+                <div class="aside-action d-flex gap-3">
+                    <span class="d-none d-md-flex"><a href="#">
+                        <i class="fa-solid fa-list-ul"></i>
+                    </a></span>
+                    <span class="d-none d-md-flex"><a href="#">
+                        <i class="fa-solid fa-circle-question"></i>
+                    </a></span>
+                    <span class="d-none d-md-flex"><a href="#">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </a></span>
+                    <span><a href="#">
+                        <i class="fa-solid fa-bell text-warning"></i>
+                    </a></span>
+                </div>
 
             </aside>
         
