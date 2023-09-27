@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bootstap Dashboard</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/bc42e2820a.js" crossorigin="anonymous"></script>
@@ -39,9 +39,17 @@
                     <span class="d-none d-md-flex"><a href="#">
                         <i class="fa-solid fa-ellipsis-vertical"></i>
                     </a></span>
-                    <span><a href="#">
-                        <i class="fa-solid fa-bell text-warning"></i>
-                    </a></span>
+                    <!-- campanella e dropdown -->
+                    <div class="dropdown">
+                            <a class=" " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-bell text-warning"></i>
+                            </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Profilo</a></li>
+                          <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                          <li><a class="dropdown-item" href="#">Log Out</a></li>
+                        </ul>
+                    </div>
                 </div>
 
             </aside>
@@ -51,9 +59,9 @@
         <div class="container-header&main flex-grow-1 d-flex">
             <header class="header-container">
                 <nav class="height-100">
-                    <ul class="nav-menu text-light d-flex flex-column height-100 py-5">
+                    <ul class="nav-menu text-light d-flex flex-column height-100 py-5 ms-md-3">
                         <!-- home  -->
-                        <li class="menu-item  fs-5 d-flex justify-content-center">
+                        <li class="menu-item  fs-5 d-flex justify-content-center justify-content-md-start ">
                             <a class="menu-item-a" href="#">
                                 <!-- <div class="incon-container"> -->
                                     <span class="menu-item__icon"><i class="fa-solid fa-house"></i></span>
@@ -66,7 +74,7 @@
 
                         </li>
                         <!-- statistiche -->
-                        <li class="menu-item   d-flex justify-content-center fs-5">
+                        <li class="menu-item   d-flex justify-content-center justify-content-md-start fs-5">
                             <a class="menu-item-a" href="#">
                                 <span class="menu-item__icon"><i class="fa-solid fa-chart-simple"></i></span>
                                 <span class="menu-item__text ms-2 d-none d-md-inline">
@@ -76,7 +84,7 @@
 
                         </li>
                         <!-- segnale  -->
-                        <li class="menu-item d-flex justify-content-center  fs-5">
+                        <li class="menu-item d-flex  justify-content-center justify-content-md-start fs-5">
                             <a class="menu-item-a" href="#">
                                 <span class="menu-item__icon"><i class="fa-solid fa-signal"></i></span>
                                 <span class="menu-item__text ms-2 d-none d-md-inline">
@@ -86,7 +94,7 @@
 
                         </li>
                         <!-- admin  -->
-                        <li class="menu-item d-flex justify-content-center fs-5 mt-auto">
+                        <li class="menu-item d-flex justify-content-center justify-content-md-start fs-5 mt-auto">
                             <a class="menu-item-a" href="#">
                                 <span class="menu-item__icon"><i class="fa-solid fa-gear"></i></span>
                                 <span class="menu-item__text ms-2 d-none d-md-inline">
@@ -103,6 +111,22 @@
 
             </header>
             <main class="main-container flex-grow-1">
+                <div class="container-fluid container-blue">
+                    <div class="row">
+                        <div class="col-12 col-sm-4 col-md-2 order-sm-3">
+                            <p>Nuovo Studente</p>
+                        </div>
+                        <div class="col12 col-sm-4 col-md-6">
+                            <p>Boolean</p>
+                        </div>
+                        <div class="col12 col-sm-4">
+                            <p>Studenti online negli ultimi 30 minuti</p>
+                            <p>150</p>
+                        </div>
+                    </div>
+
+
+                </div>
 
             </main>
 

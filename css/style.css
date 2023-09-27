@@ -75,6 +75,11 @@ img{
 .menu-item-a:hover{
     background-color: gray;
 }
+/* container blue del main  */
+.container-blue{
+    background-color: #1B72E8;
+    color:white;
+}
 
 /* media query  */
  /* Small devices (landscape phones, 576px and up) */
@@ -85,6 +90,7 @@ img{
     .header-container{ 
     width: 150px;
     }
+    
 }
 
 /* Large devices (desktops, 992px and up) */
