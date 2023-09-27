@@ -72,6 +72,9 @@ img{
     aspect-ratio: 1;
     display: inline-block;
 }
+.menu-item-a:hover{
+    background-color: gray;
+}
 
 /* media query  */
  /* Small devices (landscape phones, 576px and up) */
