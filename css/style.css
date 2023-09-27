@@ -21,8 +21,47 @@ img{
     height: 100vh;
 }
 
+.header-container{
+    width: 70px;
+    background-color: var(--dark-blue);
+    background-image: url(../img/sidebar-bg.png);
+
+}
+.main-container{
+
+}
+
+
+
+/* media query  */
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .header-container{ 
+    width: 150px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+
 /* debug  */
 .debug #app {
     border: 2px solid orange;
     padding: 20px;
 }
+.debug .container-fluid {
+    border: 2px solid purple;
+    padding: 20px;
+}
+.debug .header-container{
+    border: 2px solid greenyellow;
+    padding: 20px;
+}
+.debug .main-container {
+    border: 2px solid cornflowerblue;
+    padding: 20px;
+}   
