@@ -17,6 +17,9 @@ img{
     display: block;
 }
 /* utility */
+.bg-medium-blue{
+    background-color: #165BBA;
+}
 .height-100{
     height: 100%;
 }
