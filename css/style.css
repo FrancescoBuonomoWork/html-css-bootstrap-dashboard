@@ -17,6 +17,9 @@ img{
     display: block;
 }
 /* utility */
+.bg-white-dull{
+    background-color: #F8F9FA;
+}
 .bg-medium-blue{
     background-color: #165BBA;
 }
