@@ -97,6 +97,15 @@ img{
 .offcanvas.width-custom{
     --bs-offcanvas-width: 100vw;
 }
+.email-button{
+    height: 30px;
+    aspect-ratio: 1;
+}
+.offcanvas-body input{
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid lightgray;
+}
 /* media query  */
  /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  }

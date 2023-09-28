@@ -118,7 +118,7 @@
                     <div class="row">
                         <div class="col-12 col-sm-4 col-md-2 order-sm-3 py-3">
                             <p>Nuovo Studente</p>
-                            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                            <button class="btn btn-primary border" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                                 +
                               </button>
                             
@@ -435,7 +435,7 @@
         </div>
 
     
-        <div class="offcanvas offcanvas-start width-custom" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas offcanvas-start width-custom" tabindex="-1"       id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
             <div class="offcanvas-header">
               <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -457,7 +457,9 @@
                                 </p>
                             </div>
                             <div class="col-12 col-sm-6">
-                                <p class="d-flex flex-column">Email
+                                <p class="d-flex flex-column position-relative ">
+                                    <button type="submit" class="position-absolute bottom-0 left-0 border-0 email-button"><i class="fa-solid fa-at"></i></button>
+                                    Email
                                     <input type="email">
                                 </p>
     
@@ -520,8 +522,8 @@
                     </form>
                 </div>
 
-    </div>
-
+            </div>
+        </div>    
 
 
 
