@@ -87,6 +87,10 @@ img{
     width: 30px;
     aspect-ratio: 1;
 }
+.a-basic{
+    color: var(--blue);
+    text-decoration: underline;
+}
 
 /* media query  */
  /* Small devices (landscape phones, 576px and up) */
