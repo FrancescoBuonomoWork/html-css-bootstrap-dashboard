@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/bc42e2820a.js" crossorigin="anonymous"></script>
 </head>
-<body class="debu">
+<body class="debu"> 
+    
     
     <div id="app" class= "overflow-hidden d-flex flex-column">
         <!-- container della barra sopra -->
@@ -23,7 +24,7 @@
                 <div class="search-bar flex-grow-1">
                     <form class="search-bar-form">
                         <button type="submit" class="border-0 search-bar-button"><i class="fa-solid fa-magnifying-glass"></i></button>
-                        <input class="search-bar-input border-0 bg-light-gray rounded" type="search" placeholder="Cerca" />
+                        <input class="search-bar-input border-0 bg-light-gray rounded" type="search" placeholder="Prova a cercare lezioni di laravel" />
 
                     </form>
 
@@ -110,12 +111,18 @@
                 </nav>
 
             </header>
+
             <!-- inizio main content parte blu  -->
             <main class="main-container flex-grow-1 overflow-auto">
                 <div class="container-fluid container-blue">
                     <div class="row">
                         <div class="col-12 col-sm-4 col-md-2 order-sm-3 py-3">
                             <p>Nuovo Studente</p>
+                            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                +
+                              </button>
+                            
+
                         </div>
                         <div class="col12 col-sm-4 col-md-6 py-3">
                             <p>
@@ -428,7 +435,90 @@
         </div>
 
     
-      
+        <div class="offcanvas offcanvas-start width-custom" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="">
+                    <form class="row">
+                       
+                            <div class="col12 col-sm-6">
+                                <p class="d-flex flex-column">
+                                    Nome
+                                    <input type="text">
+                                </p>
+    
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <p class="d-flex flex-column">Cognome
+                                    <input type="text">
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <p class="d-flex flex-column">Email
+                                    <input type="email">
+                                </p>
+    
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <p class="d-flex flex-column">Password
+                                    <input type="password">
+                                </p>
+                            </div>
+                            <div class="col-12">
+                                <p class="d-flex flex-column">Indirizzo
+                                    <input type="text">
+                                </p>
+                                
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <p class="d-flex flex-column">Città
+                                    <input type="text">
+                                </p>
+                                
+                            </div>
+                            <div class="col-12 col-sm-4">
+                                <p class="d-flex flex-column">
+                                    <label for="pet-select">Stato</label>
+                                    <select name="state">
+                                        <option value="italy">Italia</option>
+                                        <option value="france">Francia</option>
+                                        <option value="germany">Germania</option>
+                                    </select>
+                
+                                </p>
+                                
+                            </div>
+                            <div class="col-12 col-sm-2">
+                                <p class="d-flex flex-column">CAP
+                                    <input type="number">
+                                </p>  
+                                
+                            </div>
+                            <div class="col-12">
+                                <p class="d-flex flex-column">Foto
+                                    <input type="file">
+                                </p>
+                            </div>
+                            <div class="col-12">
+                                <p class="d-flex gap-2">
+                                    <input type="checkbox">Seleziona per proseguire
+                                </p>
+                                
+                            </div>
+                            <div class="col-12">
+                                <span>
+                                    <button class="btn btn-primary" type="submit">Salva</button>
+                                </span>
+                                <span>
+                                    <button class="btn btn-warning" type="submit">Svuota</button>
+                                </span>  
+                            </div>
+                        
+                    </form>
+                </div>
 
     </div>
 

@@ -94,7 +94,9 @@ img{
     color: var(--blue);
     text-decoration: underline;
 }
-
+.offcanvas.width-custom{
+    --bs-offcanvas-width: 100vw;
+}
 /* media query  */
  /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  }
@@ -104,7 +106,9 @@ img{
     .header-container{ 
     width: 150px;
     }
-    
+    .offcanvas.width-custom{
+        --bs-offcanvas-width: 50vw;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
